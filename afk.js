@@ -6,15 +6,13 @@
 // @author       
 // @match        https://animemusicquiz.com/*
 // @grant        none
+// @downloadURL https://github.com/felipemcord/AMQScripts/raw/master/afk.js
+// @updateURL   https://github.com/felipemcord/AMQScripts/raw/master/afk.js
+// @copyright MIT license
 // ==/UserScript==
 
 (function() {
     'use strict';
-
-    xpBar.setXpPercent = XpBar.prototype.setXpPercent = function (newXpP) {
-        this._xpPercent = newXpP;
-        this.$xpHider.css("transform", "scale(" + ( newXpP) + ",1)");
-    };
     afkKicker.setupAfkTimeout = function () {
         this.afkWarningTimeout = setTimeout(() => {
 
