@@ -2,10 +2,13 @@
 // @name         AMQ Friend Filter
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
-// @author       
+// @description  Add Friends filter
+// @author       Pastghost
 // @match        https://animemusicquiz.com/*
 // @grant        none
+// @downloadURL https://github.com/felipemcord/AMQScripts/raw/master/Roomfilter.js
+// @updateURL   https://github.com/felipemcord/AMQScripts/raw/master/Roomfilter.js
+// @copyright MIT license
 // ==/UserScript==
 
 (function() {
